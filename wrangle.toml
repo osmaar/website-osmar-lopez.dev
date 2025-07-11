@@ -1,0 +1,6 @@
+name = "osmar-astro"
+compatibility_date = "2025-07-11"
+type = "javascript"
+main = "./dist/entry.mjs"
+format = "modules"
+dir = "./dist"

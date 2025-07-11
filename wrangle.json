@@ -1,7 +1,0 @@
-{
-    "name": "osmar-astro-site",
-    "compatibility_date": "2025-07-11",
-    "assets": {
-        "directory": "./dist"
-    }
-}

@@ -6,7 +6,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://website-osmar-lopezdev.railway.app",
+	site: "https://www.osmar-lopez.dev",
 	integrations: [
 		mdx(),
 		sitemap({

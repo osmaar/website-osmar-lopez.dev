@@ -14,7 +14,6 @@
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.5.7",
-		"@astrojs/cloudflare": "^9.2.1",
 		"@astrojs/mdx": "^2.2.0",
 		"@astrojs/rss": "^4.0.5",
 		"@astrojs/sitemap": "^3.1.1",
@@ -24,7 +23,9 @@
 		"typescript": "^5.4.2"
 	},
 	"devDependencies": {
+		"@astrojs/cloudflare": "^9.2.1",
 		"@biomejs/biome": "1.7.2",
-		"@tailwindcss/typography": "^0.5.10"
+		"@tailwindcss/typography": "^0.5.10",
+		"wrangler": "^4.24.3"
 	}
 }

@@ -1,28 +1,12 @@
-<svg width="225" height="225" viewBox="0 0 225 225" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="225" height="225" rx="80" fill="white"/>
-<g filter="url(#filter0_dd_407_3)">
-<rect x="53" y="53" width="119" height="119" rx="48" fill="url(#paint0_linear_407_3)"/>
-</g>
-<defs>
-<filter id="filter0_dd_407_3" x="33" y="53" width="159" height="159" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feMorphology radius="5" operator="erode" in="SourceAlpha" result="effect1_dropShadow_407_3"/>
-<feOffset dy="10"/>
-<feGaussianBlur stdDeviation="5"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_407_3"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feMorphology radius="5" operator="erode" in="SourceAlpha" result="effect2_dropShadow_407_3"/>
-<feOffset dy="20"/>
-<feGaussianBlur stdDeviation="12.5"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="effect1_dropShadow_407_3" result="effect2_dropShadow_407_3"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_407_3" result="shape"/>
-</filter>
-<linearGradient id="paint0_linear_407_3" x1="112.5" y1="53" x2="112.5" y2="172" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF8743"/>
-<stop offset="1" stop-color="#FD3427"/>
-</linearGradient>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1450)"><rect width="1000" height="1000" fill="#efefef"></rect><g transform="matrix(50,0,0,50,100,100)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="16" height="16">
+    <style>
+        path { fill: #A594F9; }
+        @media (prefers-color-scheme: dark) {
+            path { fill: #7371FC; }
+        }
+    </style>
+    <path d="M5.02697 12L2.59326 9.54931L4.10859 7.97716L7.71323 11.5838L7.32292 12H5.02697Z"></path>
+    <path d="M5.02697 4L2.59326 6.45069L4.10859 8.02284L7.71323 4.41616L7.32292 4H5.02697Z"></path>
+    <path d="M11.3109 12L13.7446 9.54931L12.2293 7.97716L8.62466 11.5838L9.01497 12H11.3109Z"></path>
+    <path d="M11.3109 4L13.7446 6.45069L12.2293 8.02284L8.62466 4.41616L9.01497 4H11.3109Z"></path>
+</svg></svg></g></g><defs><clipPath id="SvgjsClipPath1450"><rect width="1000" height="1000" x="0" y="0" rx="500" ry="500"></rect></clipPath></defs></svg>

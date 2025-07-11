@@ -1,6 +1,7 @@
 name = "osmar-astro"
 compatibility_date = "2025-07-11"
 type = "javascript"
-main = "./dist/entry.mjs"
+main = "./dist/entry.mjs"[build.upload
+]
 format = "modules"
 dir = "./dist"

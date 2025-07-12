@@ -1,8 +1,0 @@
-name = "osmar-lopez"
-compatibility_date = "2025-07-11"
-
-[build]
-command = "npm run build"
-
-[site]
-bucket = "./dist"

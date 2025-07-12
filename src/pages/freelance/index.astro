@@ -1,19 +1,13 @@
 ---
-import { WritingItem } from '@components/cards';
 import { Header } from '@components/misc';
 import { BaseHead } from '@components/seo';
 import { SITE_DESCRIPTION, SITE_TITLE } from '@data/index';
-import { getCollection } from 'astro:content';
 import RootLayout from '@layouts/root-layout.astro';
 import CardsOne from '@pages/freelance/section/cards-one.astro';
 import Solutions from '@pages/freelance/section/solutions.astro';
 import Flexible from '@pages/freelance/section/flexible.astro';
 import Feel from '@pages/freelance/section/feel.astro';
 import How from '@pages/freelance/section/how.astro';
-
-const writings = (await getCollection('writing')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
 ---
 
 <!doctype html>

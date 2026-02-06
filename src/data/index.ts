@@ -68,7 +68,7 @@ export const socialLinks = [
   },
   {
     label: 'YouTube',
-    url: 'https://www.youtube.com/@Est-Funny',
+    url: 'https://www.youtube.com/@estfunnytv',
   },
   {
     label: 'github',

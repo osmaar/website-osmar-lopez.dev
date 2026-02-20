@@ -51,16 +51,11 @@ jobs:
             fi
           "
 
-      - name: Deploy via SSH/rsync
-        uses: burnett01/rsync-deployments@7.0.1
-        with:
-          switches: -avzr --delete --exclude='cv' --exclude='cv_backup'
-          path: dist/
-          remote_path: ${{ secrets.HOSTINGER_REMOTE_PATH }}
-          remote_host: ${{ secrets.HOSTINGER_HOST }}
-          remote_port: ${{ secrets.HOSTINGER_PORT }}
-          remote_user: ${{ secrets.HOSTINGER_USERNAME }}
-          remote_key: ${{ secrets.HOSTINGER_SSH_KEY }}
+      - name: Deploy via rsync
+        run: |
+          rsync -avzr --delete --exclude='cv' --exclude='cv_backup' \
+            -e "ssh -i ~/.ssh/deploy_key -p ${{ secrets.HOSTINGER_PORT }}" \
+            dist/ ${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }}:${{ secrets.HOSTINGER_REMOTE_PATH }}
 
       - name: Rollback on failure
         if: failure()

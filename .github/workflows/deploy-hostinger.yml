@@ -52,10 +52,12 @@ jobs:
           "
 
       - name: Deploy via rsync
+        env:
+          REMOTE_DEST: "${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }}:${{ secrets.HOSTINGER_REMOTE_PATH }}"
         run: |
           rsync -avzr --delete --exclude='cv' --exclude='cv_backup' \
             -e "ssh -i ~/.ssh/deploy_key -p ${{ secrets.HOSTINGER_PORT }}" \
-            dist/ ${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }}:${{ secrets.HOSTINGER_REMOTE_PATH }}
+            dist/ "${REMOTE_DEST}"
 
       - name: Rollback on failure
         if: failure()
